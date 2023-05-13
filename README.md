@@ -8,7 +8,7 @@ ShelfWizard is a React-based web application that allows users to manage and exp
 - Subject Exploration: Browse books based on subject categories and subcategories.
 - Book Details: View detailed information about selected books, including title, author, description, cover image, publication date, and availability.
 - Bookshelf Management: Create and manage virtual bookshelves, add/remove books, and organize them into categories or tags.
-- User Authentication and Profiles: Register and log in to access additional features like saving bookshelves and personalized recommendations.
+
 
 ## Demo
 

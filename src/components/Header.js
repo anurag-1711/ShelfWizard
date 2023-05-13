@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../assets/logo-bookshelf.png'
 import { Link } from 'react-router-dom'
+import SearchBar from './SearchBar'
 
 const Header = () => {
     return (
@@ -14,11 +15,14 @@ const Header = () => {
                 />
             </Link>
 
+            {/* Search Bar */}
+            <SearchBar />
+
             {/* middle part */}
             <ul className='flex space-x-10  items-center'>
                 <Link to={'/'}><li className='text-xl'>Home</li></Link>
-                <Link to={'#search'}><li className='text-xl'>Search</li></Link>
-                <Link to={'/subjects'}><li className='text-xl'>Subjects</li></Link>
+                {/* <Link to={'#search'}><li className='text-xl'>Search</li></Link> */}
+                {/* <Link to={'/subjects'}><li className='text-xl'>Subjects</li></Link> */}
                 <Link to={'/bookshelf'}><li className='text-xl'>BookShelf</li></Link>
             </ul>
 

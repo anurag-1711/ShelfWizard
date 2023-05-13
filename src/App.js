@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header.js'
 import Home from './components/Home.js'
 import SubjectResults from './components/SubjectResults';
+import SearchResults from './components/SearchResults';
 
 const AppLayout = () => {
   return (
@@ -25,6 +26,10 @@ const appRouter = createBrowserRouter([
       {
         path: '/',
         element: <Home />
+      },
+      {
+        path: 'search/:text',
+        element: <SearchResults />
       }
     ]
   }
